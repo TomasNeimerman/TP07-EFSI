@@ -6,7 +6,7 @@
     background-color: #f9f9f9;
   }
   
-  .appointmentItem p {
+  .p {
     margin: 5px 0;
   }
   
@@ -20,7 +20,5 @@
     cursor: pointer;
   }
   
-  .btnDelete:hover {
-    background-color: #c82333;
-  }
+ 
   

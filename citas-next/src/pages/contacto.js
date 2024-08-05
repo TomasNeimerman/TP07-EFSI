@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Layout from '../components/Layout'
+
 import styles from '../styles/Contacto.module.css'
 
 const Contacto = () => {
@@ -23,7 +23,7 @@ const Contacto = () => {
   }
 
   return (
-    <Layout>
+
       <div className={styles.container}>
         <h1>Contacto</h1>
         <form onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ const Contacto = () => {
           <button type="submit" className={styles.buttonSubmit}>Enviar</button>
         </form>
       </div>
-    </Layout>
+
   )
 }
 
