@@ -1,0 +1,13 @@
+.appointmentList {
+    margin-top: 20px;
+  }
+  
+  .appointmentList h2 {
+    margin-bottom: 10px;
+  }
+  
+  .appointmentItems {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
